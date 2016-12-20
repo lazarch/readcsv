@@ -2,19 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc9238c8-ef50-4fbd-871b-57d88f2e3e4b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-beanutils-1.9.2.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-collections-3.2.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-lang3-3.4.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jcommon-1.0.23.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/jfreechart-1.0.19.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/opencsv-3.8.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/servlet-api-2.5.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ReadCSV.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CSVtoArrayLambda.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/CsvToArrayList.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/Main.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/ReadCSVV.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -757,7 +744,7 @@
       <workItem from="1482224432799" duration="291000" />
       <workItem from="1482224937788" duration="1091000" />
       <workItem from="1482234857574" duration="2605000" />
-      <workItem from="1482238313538" duration="5811000" />
+      <workItem from="1482238313538" duration="5851000" />
     </task>
     <task id="LOCAL-00001" summary="додав файли">
       <created>1482177936963</created>
@@ -780,11 +767,18 @@
       <option name="project" value="LOCAL" />
       <updated>1482238609680</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="компілюється, замінив підрахунок кількості строк">
+      <created>1482255752447</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1482255752447</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19596000" />
+    <option name="totallyTimeSpent" value="19636000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1327" y="1" width="1234" height="1004" extended-state="0" />
@@ -832,7 +826,8 @@
     <MESSAGE value="додав файли" />
     <MESSAGE value="додав файли, міняю пом" />
     <MESSAGE value="не компілюється, буду видаляти два файла" />
-    <option name="LAST_COMMIT_MESSAGE" value="не компілюється, буду видаляти два файла" />
+    <MESSAGE value="компілюється, замінив підрахунок кількості строк" />
+    <option name="LAST_COMMIT_MESSAGE" value="компілюється, замінив підрахунок кількості строк" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
