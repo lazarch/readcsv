@@ -30,12 +30,12 @@ public class ReadCSVV {
         File file = new File(fileName);
         final long length = file.length();
         Scanner inputfile = new Scanner(file);
-        
-        
-        inputfile.next();
-        inputfile.next();
+
+
+//        final String next = inputfile.next();
+//        String next1 = inputfile.next();
         int count = (int) Files.lines(path).count();
-//        count = sdf.NumRows(fileName);
+//        int count1  = NumRows.NumRows(fileName);
         Date[] date_tr = new Date[count];
         Time[] open = new Time[count];
         Double[] high = new Double[count];

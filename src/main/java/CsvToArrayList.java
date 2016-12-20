@@ -85,7 +85,8 @@ public class CsvToArrayList {
         private Double temp6 ;
 //constructor DaTemp для class-у csVtoArrayList.DaTemp
         public DaTemp(String date, String time, Double temp0, Double temp1,
-                      Double temp2, Double temp3, Double temp4, Double temp5, Double temp6) {
+                      Double temp2, Double temp3, Double temp4, Double temp5,
+                      Double temp6) { //конструктор класу DaTemp, присвоює значення даними
 
             this.date = date;
             this.time = time;
