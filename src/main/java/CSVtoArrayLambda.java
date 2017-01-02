@@ -1,25 +1,16 @@
 import java.io.IOException;
 import java.nio.file.Files;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.time.LocalDate;
 import java.util.List;
 import java.util.function.Function;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 /** Created by alex on 09-Dec-16. */
 public class CSVtoArrayLambda {
-//        static Calendar now = Calendar.getInstance();
-    static String sDate = LocalDate.now().toString().replace("-",""); //сьогоднішній день
-//    final static String sTime = LocalTime.now().minus(60, ChronoUnit.SECONDS).toString().substring(0,6);  //поточний час
-    // - попередньої хвилини, інколи немає ще даних на поточну хвилину
-    final private static Path path = Paths.get("\\\\F7\\Logs\\" + sDate + ".log");
 
     public static void main(String[] args) {
-
         try {
 
-            Stream<String> lines2 = Files.lines(path);
+            Stream<String> lines2 = Files.lines(KotelLogPath.path);
             List<String> resultList = lines2
                     .filter(listString ->
                             (listString.substring(15,16).contains("5")) //лише 5 хвилина
