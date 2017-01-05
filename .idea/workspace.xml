@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b1931fcd-7636-4a24-9eef-3350551f165a" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/com_opencsv_opencsv_3_8.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/org_jfree_jfreechart_1_0_19.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ReadCSV.iml" afterPath="$PROJECT_DIR$/ReadCSV.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/CSVtoArrayLambda.java" afterPath="$PROJECT_DIR$/src/main/java/CSVtoArrayLambda.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/KotelLogPath.java" afterPath="$PROJECT_DIR$/src/main/java/KotelLogPath.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -685,12 +677,20 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1483611135378</updated>
-      <workItem from="1483611141184" duration="685000" />
+      <workItem from="1483611141184" duration="1138000" />
     </task>
+    <task id="LOCAL-00001" summary="перемістив у іншу папку за допомогою Мавен у&#10;прибрав сміття">
+      <created>1483611879285</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1483611879285</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="685000" />
+    <option name="totallyTimeSpent" value="1138000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="1010" extended-state="6" />
@@ -732,6 +732,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="перемістив у іншу папку за допомогою Мавен у&#10;прибрав сміття" />
+    <option name="LAST_COMMIT_MESSAGE" value="перемістив у іншу папку за допомогою Мавен у&#10;прибрав сміття" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
