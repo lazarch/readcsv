@@ -18,12 +18,7 @@ public class CSVtoArrayLambda {
                     .collect(Collectors.toList());
 
 /*
-можна ось так робити, тут у ліст передається значення запиту, який формується на основі
-виборки з обєкта User
-List<User> users = jdbcTemplate.query(
-  "SELECT USER_ID, USERNAME FROM USER",
-
-   (rs, rowNum) -> {        // ось тут формується виборка
+можна ось так робити, тут у ліст передається значення запиту, який формується на основі виборки з обєкта User List<User> users = jdbcTemplate.query("SELECT USER_ID, USERNAME FROM USER",(rs, rowNum) -> {        // ось тут формується виборка
     User user = new User();
     user.setUserId(rs.getLong("USER_ID"));
     user.setUsername(rs.getString("USERNAME"));

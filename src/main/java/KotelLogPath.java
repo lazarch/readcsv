@@ -18,46 +18,29 @@ public class KotelLogPath {
     private float temp6;
     public KotelLogPath fieldKotelLog = null;
 
-
-/*
-    public KotelLogPath(String date, String time, String temp0, String temp1,String temp2, String temp3, String temp4, String temp5, String temp6) {
-        //конструктор класу DaTemp, присвоює значення даними
-
-        this.date = date;
-        this.time = time;
-        this.temp0 = Float.parseFloat(temp0);
-        this.temp1 = Float.parseFloat(temp1);
-        this.temp2 = Float.parseFloat(temp2);
-        this.temp3 = Float.parseFloat(temp3);
-        this.temp4 = Float.parseFloat(temp4);
-        this.temp5 = Float.parseFloat(temp5);
-        this.temp6 = Float.parseFloat(temp6);
-    }
-*/
-
     KotelLogPath(String line) {
         //конструктор класу DaTemp, присвоює значення даними
         String[] array = line.split(",");
-        this.date = array[0];
-        this.time =  array[1];
-        this.temp0 = Float.parseFloat(array[2]);
-        this.temp1 = Float.parseFloat(array[3]);
-        this.temp2 = Float.parseFloat(array[4]);
-        this.temp3 = Float.parseFloat(array[5]);
-        this.temp4 = Float.parseFloat(array[6]);
-        this.temp5 = Float.parseFloat(array[7]);
-        this.temp6 = Float.parseFloat(array[8]);
+        date = array[0];
+        time =  array[1];
+        temp0 = Float.parseFloat(array[2]);
+        temp1 = Float.parseFloat(array[3]);
+        temp2 = Float.parseFloat(array[4]);
+        temp3 = Float.parseFloat(array[5]);
+        temp4 = Float.parseFloat(array[6]);
+        temp5 = Float.parseFloat(array[7]);
+        temp6 = Float.parseFloat(array[8]);
     }
 
     public String toString() {
-        return "Дата "+ this.date +
-                " time " + this.time +
-                " дім подача " + this.temp0 +
-                " триходовий " + this.temp1 +
-                " погріб " + this.temp2 +
-                " котел подача " + this.temp3 +
-                " котел зворотня " + this.temp4 +
-                " дім зворотня " + this.temp5 +
-                " вулиця " + this.temp6;
+        return  "Дата "             + date +
+                " time "            + time +
+                " дім подача "      + temp0 +
+                " триходовий "      + temp1 +
+                " погріб "          + temp2 +
+                " котел подача "    + temp3 +
+                " котел зворотня "  + temp4 +
+                " дім зворотня "    + temp5 +
+                " вулиця "          + temp6;
     }
 }
